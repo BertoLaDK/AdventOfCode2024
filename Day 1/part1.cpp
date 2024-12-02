@@ -20,7 +20,7 @@ bool ascendingPairs(std::pair<int,int>a, std::pair<int,int>b){
 
 int main() {
 
-    std::ifstream file("C:\\Users\\lucas\\OneDrive\\Advent Of Code\\2024\\Day 1\\input.txt");
+    std::ifstream file("..\\Day 1\\input.txt");
     std::string str;
     std::vector<int> firstList, secondList;
     std::clock_t time = std::clock();
