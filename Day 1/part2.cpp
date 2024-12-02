@@ -28,7 +28,7 @@ int main() {
         secondList.push_back(second);
     }
 
-    int total = method2(firstList, secondList);
+    int total = method2  (firstList, secondList);
 
 
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::high_resolution_clock::now() - start).count();
