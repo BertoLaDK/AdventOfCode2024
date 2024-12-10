@@ -3,7 +3,7 @@ project(AdventOfCode2024)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(DAYS 1 2 3 4 5 6 7)
+set(DAYS 1 2 3 4 5 6 7 8 9)
 
 foreach(day ${DAYS})
     add_executable(Day${day}_Part1
